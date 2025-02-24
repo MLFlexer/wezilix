@@ -9,11 +9,13 @@ curl -o $HOME/.config/helix/wezilix.sh https://raw.githubusercontent.com/MLFlexe
 ```
 
 ### Chmod it!
+Make it executable:
 ```sh
 chmod +x $HOME/.config/helix/wezilix.sh
 ```
 
 ### Helix config.toml
+Add keybinds to your config:
 ```toml
 [keys.normal.C-y]
 y = ":sh wezterm cli split-pane --left --percent 30 -- ~/.config/helix/wezilix.sh $WEZTERM_PANE open         > /dev/null"
