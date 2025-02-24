@@ -1,4 +1,4 @@
-# wezilix
+# Wezilix
 Small script to implement Yazi with Helix using Wezterm.
 
 ## Install
@@ -6,6 +6,11 @@ Small script to implement Yazi with Helix using Wezterm.
 To install you must place the script in your config directory:
 ```sh
 curl -o $HOME/.config/helix/wezilix.sh https://raw.githubusercontent.com/MLFlexer/wezilix/master/wezilix.sh
+```
+
+### Chmod it!
+```sh
+chmod +x $HOME/.config/helix/wezilix.sh
 ```
 
 ### Helix config.toml
