@@ -1,6 +1,9 @@
 # Wezilix
 Small script to implement Yazi with Helix using Wezterm.
 
+![Demo GIF](https://github.com/user-attachments/assets/4cebe009-fdaf-4691-9859-505ebfdb33b7)
+
+
 ## Install
 ### Download the script
 To install you must place the script in your config directory:
